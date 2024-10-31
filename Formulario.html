@@ -6,14 +6,28 @@
     <title>Formulario</title>
 </head>
 <body>
+    <fieldset>
     <legend>Formulario</legend>
     <form>
-        <ilabel>nombre</ilabel>
+        <label>nombre</ilabel><br>
         <input type="text" placeholder="ingrese su nombre"></input><br>
-        <ilabel>apellido</ilabel>
+        <label>apellido</ilabel><br>
         <input type="text" placeholder="ingrese tu apellido">
+        <label>descripcion</label><br>
+        <textarea rows="4"></textarea><br>
+        <label>fecha de nacimiento</label><br>
+        <input type="date"><br>
+        <label>enviar</label><br>
+        <select>
+            <option>Beni</option>
+            <option>La Paz</option>
+            <option>Potosi</option>
+            <option></option><br>
+            <label>enviar</label><br>
+            <input type="checkbox">
+        </select>
+        <input type="submit" value="enviar">
+    </fieldset>
         
-        
-    
 </body>
 </html>
